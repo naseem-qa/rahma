@@ -1,14 +1,17 @@
-'use script'
 var naseem = function() {
-
+    var gh = prompt('How R U ?');
     var hima;
-    var gh = prompt("How R U ?");
-    if (gh == 'Good' ) {
-        gh = "Hello!";
-    } else if (gh == 'Bad') {
-        gh = "Bad For Me!";
+while ( gh !== 'good' && gh !== 'bad' )
+
+   gh = prompt ('try, good, bad ');
+
+    if (hima == 'good' ) {
+        gh = 'Hello!' ;
+    } else if (hima == 'bad') {
+        gh = 'Bye!' ;
     }
 return gh;
 }
+
 
 
