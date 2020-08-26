@@ -1,29 +1,27 @@
 /* 'use strict ;' */
 
-var naseem = function() {
-    var gh = prompt('How R U ?');
-    var hima;
-while ( gh !== 'good' && gh !== 'bad' )
+function naseem() {
 
-   gh = prompt ('try, good, bad ');
+    var ans = prompt('How R U ?');
 
-    if (hima == 'good' ) {
-        gh = 'Hello!' ;
-    } else if (hima == 'bad') {
-        gh = 'Bye!' ;
-    }
-return gh;
+while ( ans !== 'good' && ans !== 'bad' ){
+    ans = prompt ('try, good, bad ');
 }
-
-var time = prompt('Type number:');
+}
+naseem();
+// document.write('<h3>' + naseem() + '</h3>');
 
 function myFunction1(){
-var i;
-for (i = 1; i < 10; i++) {
-
- var text = text + 'Type number:' + i + "<br>";
+    var time = prompt('Type number:');
+    if (time >10){
+        for (var i = 0; i < time; i++) {
+         var text ='Type number:' + time + "<br>";
+         return text;
+        }
+    } else{
+       nn = prompt (' less than 10 ');
+        return  nn ;
+    }
 }
-return text;
-
-}
-
+myFunction1();
+document.write('<h3>' +  myFunction1() + '</h3>');
