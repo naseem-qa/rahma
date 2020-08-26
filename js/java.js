@@ -14,7 +14,7 @@ naseem();
 function myFunction1(){
     var time = prompt('Type number:');
     if (time >10){
-        for (var i = 0; i < time; i++) {
+        for (var i = 0; i <5; i++) {
          var text ='Type number:' + time + "<br>";
          return text;
         }
